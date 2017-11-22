@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "prettier",
+    "react-app",
+  ],
+  "plugins": [
+    "babel",
+    "flowtype",
+    "react",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "rules": {
+    "prettier/prettier": ["error", {
+      "singleQuote": true,
+      "printWidth": 100,
+      "trailingComma": "all"
+    }]
+  }
+}
